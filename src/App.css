@@ -47,6 +47,14 @@ img {
 }
 
 
+pre {
+  background: white;
+}
+
+code {
+  background: white;
+}
+
 
 /* width */
 ::-webkit-scrollbar {
