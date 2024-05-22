@@ -1,0 +1,66 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+  text-align: center;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+body {
+  font-family: 'Segoe UI', Roboto, sans-serif;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #212529;
+  text-align: left;
+  background: #87b5b5;
+  margin: 10px 0;
+}
+
+
+textarea {
+  background-color: azure;
+  border: 5px solid teal;
+  border-radius: 5px;
+
+}
+
+/* width */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #azure;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #033621;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #065232;
+}
+
+
+
+li {
+  text-align: left;
+}
+
+img {
+  width: 100%
+}
+
+code {
+  background-color: pink;
+  text-align: left;
+  align-self: left;
+}
