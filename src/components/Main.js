@@ -23,7 +23,11 @@ export default class Main extends React.Component {
     return (
       <div id="mainDiv">
         <InputBox text={this.state.text} onChange={this.handleChange} />
-        <Preview html={marked(this.state.text, {})} />
+        <Preview
+          html={marked(this.state.text, {
+            breaks: true,
+          })}
+        />
       </div>
     );
   }
