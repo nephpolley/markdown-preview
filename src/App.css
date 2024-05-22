@@ -1,14 +1,7 @@
 * {
-  margin: 0;
   box-sizing: border-box;
-  text-align: center;
 }
 
-main {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-}
 
 body {
   font-family: 'Segoe UI', Roboto, sans-serif;
@@ -18,16 +11,42 @@ body {
   color: #212529;
   text-align: left;
   background: #87b5b5;
-  margin: 10px 0;
+  margin: 10px;
 }
 
+#mainDiv {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+#editorDiv {
+  max-width: 650px;
+}
 
 textarea {
   background-color: azure;
   border: 5px solid teal;
   border-radius: 5px;
-
+  margin: auto;
+  resize: vertical
 }
+
+
+img {
+  width: 100%
+}
+
+#preview {
+  width: 90%;
+  background: rgb(218, 250, 250);
+  padding: 20px;
+  border: 5px solid teal;
+  border-radius: 5px;
+}
+
+
 
 /* width */
 ::-webkit-scrollbar {
@@ -36,7 +55,7 @@ textarea {
 
 /* Track */
 ::-webkit-scrollbar-track {
-  background: #azure;
+  background: azure;
 }
 
 /* Handle */
@@ -47,20 +66,4 @@ textarea {
 /* Handle on hover */
 ::-webkit-scrollbar-thumb:hover {
   background: #065232;
-}
-
-
-
-li {
-  text-align: left;
-}
-
-img {
-  width: 100%
-}
-
-code {
-  background-color: pink;
-  text-align: left;
-  align-self: left;
 }

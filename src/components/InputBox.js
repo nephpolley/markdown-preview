@@ -12,13 +12,15 @@ export default class InputBox extends React.Component {
 
   render() {
     return (
-      <textarea
-        id="editor"
-        rows="25"
-        cols="50"
-        value={this.props.text}
-        onChange={this.handleChange}
-      ></textarea>
+      <div id="editorDiv">
+        <textarea
+          id="editor"
+          rows="25"
+          cols="50"
+          value={this.props.text}
+          onChange={this.handleChange}
+        ></textarea>
+      </div>
     );
   }
 }
